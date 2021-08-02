@@ -23,7 +23,7 @@
 	float: left;
 	border: 2px solid #000;
 	--padding: 1rem;
-	background-color: #ccc;
+	background-color: #fef8dc;
 }
 .container>.menu>.item>.title-wrap{
 	width: 100%;
