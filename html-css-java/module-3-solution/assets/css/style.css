@@ -27,6 +27,10 @@
 		border: 2px solid;
 	}
 
+.section-title{
+	padding: 1rem 0;
+}
+
 @media (max-width: 768px) { 
 	main{
 		max-width:80%;	
@@ -35,7 +39,7 @@
 	.navbar-collapse{
 		border-top: 2px solid;
 	}
-	
+
 	
 	.navbar-nav > li:nth-child(2),.navbar-nav > li:nth-child(1) {
 	  	border-bottom: 1px solid;
