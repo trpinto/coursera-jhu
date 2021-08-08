@@ -11,10 +11,6 @@
 	text-align: justify;
 }
 
-
-
-
-
 .navbar-brand{
 	font-size: 2rem;
 	font-weight: 600 ;
@@ -26,18 +22,22 @@
 .bg-ccc{
 	background-color: #ccc;
 }
+
 .border-2px{
-	border: 2px solid;
-}
-.navbar-nav > li:nth-child(2),.navbar-nav > li:nth-child(1) {
-  border-bottom: 1px solid;
-}
-.navbar-collapse{
-	border-top: 2px solid;
-}
+		border: 2px solid;
+	}
 
 @media (max-width: 768px) { 
 	main{
 		max-width:80%;	
+	}
+
+	.navbar-collapse{
+		border-top: 2px solid;
+	}
+	
+	
+	.navbar-nav > li:nth-child(2),.navbar-nav > li:nth-child(1) {
+	  	border-bottom: 1px solid;
 	}
 }
